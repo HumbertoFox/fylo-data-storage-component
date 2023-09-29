@@ -1,0 +1,49 @@
+@media(max-width: 992px){
+    body main {
+        width: 375px;
+        height: 667px;
+        background: url(../images/bg-mobile.png) bottom no-repeat var(--Very-Dark-Blue);
+    }
+    body main .div-main {
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 38px;
+    }
+    body main .div-main .div-left {
+        width: 328px;
+    }
+    body main .div-main .div-left > img {
+        margin-top: 40px;
+        margin-left: 42px;
+    }
+    body main .div-left .ul-left-logos {
+        margin-left: 43px;
+    }
+    body main .div-main .div-right {
+        width: 328px;
+        height: 160px;
+    }
+    body main .div-main .div-right h1 {
+        top: auto;
+        right: 22%;
+        bottom: 0;
+        border-bottom-right-radius: 10px;
+    }
+    body main .div-main .div-right h1::before {
+        display: none;
+    }
+    body main .div-main .div-right h2 {
+        text-align: center;
+        letter-spacing: .17px;
+        margin: 33px 0 15px 0;
+    }
+    body main .div-main .div-right > div {
+        margin: 0px 32px 0 34px;
+    }
+    body main .div-main .div-right .div-right-primary {
+        margin: 2px 3px 10px 3px;
+    }
+    body main .div-main .div-right .div-right-second {
+        right: 26.3%;
+    }
+}

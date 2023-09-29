@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    --Gradient: to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%);
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 800px;
+    background: url(../images/bg-desktop.png) bottom no-repeat var(--Very-Dark-Blue);
+}
+body main .div-main {
+    display: flex;
+    position: relative;
+    align-items: end;
+    font-family: 'Raleway', sans-serif;
+    gap: 30px;
+    padding-bottom: 17px;
+}
+body main .div-main .div-left {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    background-color: var(--Dark-Blue);
+    border-radius: 7px 100px 10px 10px;
+}
+body main .div-main .div-left > img {
+    width: 136px;
+    margin: 38px auto 33px 41px;
+}
+body main .div-left .ul-left-logos {
+    display: flex;
+    gap: 16px;
+    margin-left: 41px;
+}
+body main .div-left .ul-left-logos li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--Very-Dark-Blue);
+    padding: 12px;
+    border-radius: 10px;
+}
+body main .div-main .div-right {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 155px;
+    background-color: var(--Dark-Blue);
+    border-radius: 10px;
+}
+body main .div-main .div-right h1 {
+    display: flex;
+    position: absolute;
+    top: -3px;
+    right: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 73px;
+    gap: 6px;
+    font-size: 42px;
+    font-weight: 700;
+    background-color: #FFF;
+    letter-spacing: .7px;
+    border-radius: 10px 10px 0 10px;
+}
+body main .div-main .div-right h1::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    transform: skew(180deg, 46deg);
+    background-color: #FFF;
+}
+body main .div-main .div-right h1 span {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--Grayish-Blue);
+}
+body main .div-main .div-right h2 {
+    font-size: 14px;
+    color: var(--Pale-Blue);
+    font-weight: 400;
+    letter-spacing: .1px;
+    margin: 40px 0 15px 40px;
+}
+body main .div-main .div-right h2 span {
+    font-weight: 600;
+}
+body main .div-main .div-right > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 0 40px;
+}
+body main .div-main .div-right .div-right-primary {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 18px;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 10px;
+    margin: 2px 3px 9px 3px;
+}
+body main .div-main .div-right .div-right-second {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 118px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+body main .div-main .div-right .div-right-third {
+    width: 74.4%;
+    height: 12px;
+    position: absolute;
+    background: linear-gradient(var(--Gradient));
+    border-radius: 10px;
+}
+body main .div-main .div-right div .p-div-right {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--Pale-Blue);
+}
+body footer .attribution {
+    font-size: 11px; text-align: center;
+}
+body footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}
